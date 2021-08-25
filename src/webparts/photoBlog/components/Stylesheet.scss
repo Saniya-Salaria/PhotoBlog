@@ -1,0 +1,173 @@
+.photoBlog {
+    .userImageContainer {
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+            0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        padding: 4px 4px 13px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 4px;
+        .userImage {
+            height: 260px;
+            width: 266px;
+            overflow: hidden;
+            border: 1px solid #f6f6f6;
+            margin-bottom: 5px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    h2 {
+        margin-top: 0;
+    }
+    h3 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 15px !important;
+    }
+    h4 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 14px !important;
+    }
+    .pnp__file-picker {
+        .ms-Button-flexContainer {
+            color: rgb(230, 83, 50);
+            border-radius: 4px;
+            font-weight: 600;
+            margin-left: -5px;
+        }
+    }
+    .MuiButton-containedPrimary {
+        background-color: rgb(230, 83, 50) !important;
+        margin-top: 10px;
+    }
+    .MuiButton-contained.Mui-disabled {
+        background-color: rgba(0, 0, 0, 0.12) !important;
+    }
+
+    .MuiCardMedia-root {
+        height: 200px !important;
+        background-position: top left;
+    }
+    .MuiCardContent-root {
+        padding: 5px 8px;
+        .MuiTypography-h5 {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        .MuiTypography-colorTextSecondary {
+            font-size: 12px;
+            height: 50px;
+            word-break: break-word;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+    .MuiFormHelperText-contained {
+        margin-left: 0 !important;
+    }
+    form {
+        padding-left: 24px;
+    }
+}
+.MuiAlert-standardSuccess {
+    color: #fff !important;
+    font-weight: 500;
+    background-color: #4caf50 !important;
+    .MuiAlert-icon {
+        color: #fff !important;
+    }
+}
+.MuiSnackbar-anchorOriginBottomCenter {
+    left: 50% !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    top: 50% !important;
+}
+.MuiCardActionArea-root {
+    cursor: default !important;
+    .tooltipContainer {
+        cursor: pointer !important;
+        color: rgb(230, 83, 50) !important;
+        position: absolute !important;
+        line-height: 22px;
+        bottom: -2px !important;
+        right: 0 !important;
+        background: #fff !important;
+        width: 70px !important;
+        text-align: center !important;
+    }
+    &:hover {
+        background-color: transparent !important;
+        .MuiCardActionArea-focusHighlight {
+            background-color: transparent;
+        }
+    }
+}
+.MuiCardActionArea-focusHighlight {
+    background-color: transparent !important;
+    display: none !important;
+}
+.galleryImageCard {
+    width: 100%;
+    max-height: 250px;
+    height: 250px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 5px;
+    }
+}
+// .masonryContainer {
+//     display: flex;
+//     flex-flow: column wrap;
+//     align-content: space-between;
+//     padding: 10px;
+//     height: 600px;
+//     .MuiCardContent-root {
+//         img {
+//             width: 100%;
+//         }
+//     }
+//     .masonryChild {
+//         width: 25%;
+//         margin-bottom: 10px;
+//         &:nth-child(3n + 1) {
+//             order: 1;
+//         }
+//         &:nth-child(3n + 2) {
+//             order: 2;
+//         }
+//         &:nth-child(3n) {
+//             order: 3;
+//         }
+//     }
+// }
+.__floater__container {
+    border-radius: 4px;
+    button {
+        top: -6px !important;
+        right: -6px !important;
+        padding: 0 !important;
+        background: rgba(0, 0, 0, 0.5) !important;
+        width: 18px;
+        height: 18px;
+        border-radius: 50% !important;
+        color: #fff !important;
+        cursor: pointer;
+        svg {
+            width: 9px !important;
+            height: 9px !important;
+            line-height: 9px !important;
+        }
+    }
+    .__floater__content {
+        font-size: 13px !important;
+        white-space: pre-line;
+        font-family: "Segoe UI WestEuropean", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue",
+            sans-serif;
+    }
+}

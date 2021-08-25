@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "photo-blog-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/photoBlog/PhotoBlogWebPart.js",
+          "manifest": "./src/webparts/photoBlog/PhotoBlogWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PhotoBlogWebPartStrings": "lib/webparts/photoBlog/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
